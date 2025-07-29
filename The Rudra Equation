@@ -1,0 +1,27 @@
+Abstract:
+We propose The Rudra equation :The sum of the squares of three distinct prime numbers
+is never equal to the square of fourth distinct prime number .The conjecture has been tested
+computationally on all combinations of prime numbers up to 10,000 and no counterexamples
+were found.A formal proof is not given the results suggest that the equation is consistent
+and may hold true.The problem remains an open problem
+1.Introduction
+Prime numbers inspired many mathematicians throughout history due to their deep role in
+number theory.Today we are proposing a conjecture involving squares of distinct prime
+numbers.This equation has been tested computationally but remains unproven.
+2.Statement of Equation
+Let a, b, c, d be four distinct prime numbers. Then:
+a^2 + b^2 + c^2 \ne d^2
+3.Computational Evidence:
+A Python program was used to test all combinations of three distinct prime numbers where
+a,b,c <10,000 for each triplet ,the sum of a^2+b^2+c^2 was computed and checked whether
+it equals the square of fourth distinct prime number d^2.Despite checking it to millions of
+combinations no counterexamples were found.
+Appendix :The python code used to test this equation is available at :
+[https://colab.research.google.com/drive/1Rq-
+fdHMBAX4NITDsL3OdhZ_Is8CB1Ev5?usp=sharing]
+4.Conclusion:
+Although the equation appears simple it remains unproven it’s consistency across a
+large number of tests suggest that it may hold in general
+Inspired by mathematical elegance admired by Ramanujan the author offers this equation an
+open problem inviting further attempts at proofs or counterexample from math community
+The author respectfully dedicates this equation to Lord Shiva
